@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the Start Button to play the FizzBuzz Challenge.</p>
+
+<button onclick="myFunction()">Start</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let txt;
+  let r = prompt("Enter a number between 1 - 100");
+
+    switch(r) {
+    case "3":
+      text = "Fizz";
+      break;
+    case "5":
+      text = "Buzz";
+      break;
+    case "30":
+      text = "FizzBuzz";
+      break;
+    default:
+      text = "I have never heard of that one..";
+      
+
+      
+  }
+
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
